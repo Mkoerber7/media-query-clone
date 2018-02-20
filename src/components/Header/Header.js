@@ -39,6 +39,7 @@ class Header extends Component {
                 <div className = 'burger-div'>
                   <button className = 'burger-btn' ref = {(burgerBtn) => {this.burgerBtn = burgerBtn}} onClick = {this.handleClick} >MENU</button>
                 </div>
+                <div className = 'img-container' alt = "Background Image" />
               </div>
 
                 <div className = 'burger-menu' ref = {(burgerMenu) => {this.burgerMenu = burgerMenu}}>
@@ -50,11 +51,7 @@ class Header extends Component {
                     <li className = 'burger-links'>CONTACT</li>
                   </ul>
                 </div>
-
-              <div className = 'img-container' alt = "Background Image" />
-            </div>
-
-        
+            </div>    
         )
     }
 }
